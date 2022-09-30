@@ -1,0 +1,30 @@
+.d1{background:#2a90cf;}
+.d2{background:rgb(252, 178, 149);}
+.d3{background:rgb(69, 175, 69);}
+.d4{background:PaleTurquoise;}
+.d5{background:LightPink;}
+.d6{background:rgb(0,255,255);}
+.flex{display: flex;flex-direction: row;}
+
+main{display: flex;flex-direction: row}
+
+header{display: flex; width:44vw;height:15vh; margin: 5px;}
+nav{display: flex; width:44vw;height:15vh; margin: 5px;}
+article{display: flex; width:74vw;height:42vh; margin: 5px;}
+section{display: flex; width:74vw;height:20vh; margin: 5px;}
+aside{display: flex; width:14vw;height:62vh; margin: 5px;}
+footer{display: flex; width:88vw;height:15vh; margin: 5px;}
+
+body{
+	margin:5px;
+	font-size: 3vw;
+}
+
+.sr-reader{
+	position: absolute;
+	left:  -10000px;
+	width: 1px;
+	height:1px;
+	top:auto;
+	overflow: hidden;
+}
